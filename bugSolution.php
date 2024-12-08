@@ -1,0 +1,1 @@
+This corrected code uses strict comparison (`===`) to check for both value and type equality.  This ensures that "0" (string) and 0 (integer) are correctly identified as not equal. Strict comparison prevents the unexpected behavior of loose comparison. 
