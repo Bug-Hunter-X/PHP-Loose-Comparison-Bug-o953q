@@ -1,0 +1,1 @@
+This code uses a non-standard comparison that can lead to unexpected results. The loose comparison `==` does not check for type equality. In this case, the string "0" is considered loosely equal to the integer 0, but they are different types. This can lead to unexpected behavior.
